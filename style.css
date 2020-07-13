@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(37, 255, 255);
+}
+
+/*.montain{
+    
+}*/
+h1{
+    
+    font-family: 'Grenze Gotisch', cursive;/*vai no google fonts, 
+    escolhe a fonte e cola o link no head do html e o outro texto no CSS*/
+}
+.top-container{
+    background-color: rgb(23, 63, 243);
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: cornsilk;
+}
+.firstCloud{
+    width: 18%;
+    position: relative;
+    right: 20%;
+}
+.secondCloud{
+    width: 18%;
+    position: relative;
+    left: 25%;
+}
+.middle-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.profilePicture{
+    border-radius: 100%;
+    width: 25%;
+}
+.gif{
+    border-radius: 100%; 
+}
+.noToque:hover{
+    background-color: aquamarine;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .noToquePhoto:hover {
+    opacity: 0.5;
+    border: 1px solid rgb(130, 191, 241);
+}
