@@ -1,44 +1,401 @@
-body{
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color:  #79dcfd ;
+    text-align: center;  
+    font-size: 2vw;  
+    color:  #02394b ; 
+    font-family: 'Karla', sans-serif;
+}
+h1{
+    
+    font-family: fantasy;/*vai no google fonts, 
+    escolhe a fonte e cola o link no head do html e o outro texto no CSS*/
+    font-size: 10vh;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    
+}
+h2{
+    font-size: 7vh;
+    font-weight: normal;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    
+}
+h3{
+    font-size: 3vh;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 5vh;
+}
+p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+hr{
+    width: 10vw;
+    border-style: dotted;
+    border-top: none;
+    border-width: 0,5vw;
+    color:  #225d70 ;
+}
+table{
+    margin: 0px;
+}
+.top-container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #00bfff;
+    color:  #6dd3f5 ;
+    position: relative;
+}
+.cloud{
+    width: 15vw;
+    height: 10vh;
+}
+.firstCloud{
+    width: 16vw;
+    height: 11vh;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+}
+.secondCloud{
+    width: 16vw;
+    height: 11vh;
+    position: absolute;
+    top: 25vh;
+    right: 20vw;
+}
+.contentTopContainer{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Cedarville Cursive', cursive;
+}
+.montain{
+    width: 20vw;
+    position: absolute;
+    bottom: 0px;
+    right: 30%;
+    padding: 0px;
+    margin: 0px;
+}
+.picture-montain{
+    width: 25vw;
+    position: absolute;
+    right: 15vw;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.middle-container{
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+    
+}
+.profile{
+    width: 100%;
+    height: auto;
+    
+    margin: 0px;
+    padding: 0px;
+}
+.enildo-Picture{
+    border-radius: 100%;
+    width: 20vw;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.profilePicture{
+    width: 100%;
+    height: 48vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 8vh;
+}
+.contentProfile{
+    width: 40vw;
+    padding: 6vh;
+}
+.codeGif{
+    width: 100vw;
+}
+.gif{
+    width: 40vw;
+    border-radius: 100%;
+
+
+}
+.introductionAbilities{
+    padding: 0px;
+    margin: 0px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.Abilities{
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.Abilities-title{
+    padding: 2vw;  
+}
+.introductionAbilities{
+    width: 100vw;
+    height: auto;
+}
+.abilities-Image{
+    width: 25vw;
+    border-radius: 100%;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.text-in-center{
+    width: 40vw;
+    padding: 2vw;
+}
+.skills{
+    width: 100vw;
+    height: auto;
+    
+}
+.sub-container-abilities{
+    width: 100vw;
+    vertical-align: middle;
+    padding: 0vh;
+    position: relative;
+    
+}
+.skillsImage{
+    width: 35vw;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    align-items: center;   
+    vertical-align: middle;
+}
+
+.skillsTable{
+    width: 35vw;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+.tools{
+    width: 100vw;
+    height: auto;
+    
+}
+.languages{
+    width: 100vw;
+    height: auto;
+    
+}
+
+
+
+
+.contact-me{
+    width: 100vw;
+    height: auto;
+    
+}
+.bottom-container{
+    background-color: #00bfff;
+}
+.footer-link{
+    text-decoration: none;
+    color:  #02394b ; 
+    padding-left: 4vw;
+}
+.paragraph-footer{
+    font-size: 1vw;
+    font-style: oblique;
+    padding-bottom: 5vw;
+    color: #ecf6fa;
+}
+.paragraph-nav-footer{
+    padding: 3vw;
+    
+}
+
+.noToquePhoto:hover {
+    opacity: 0.5;
+    border: 1px solid rgb(130, 191, 241);
+}
+
+.noToque:hover{
+    background-color: #a4c6d1;
+}
+
+.BUTTON_HGO {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 2vw;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 3vw;
+    font-weight: 1vw;
+    padding: 3vw;
+    box-shadow: 1vw 1vw 2vw 0px #000000;
+    -webkit-box-shadow: 1vw 1vw 2vw 0px #000000;
+    -moz-box-shadow: 1vw 1vw 2vw 0px #000000;
+    text-shadow: 1vw 1vw 2vw #000000;
+    border: solid #337FED 1vw;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_HGO:hover {
+    border: solid #337FED 1vw;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 2vw;
+    text-decoration: none;
+ }
+ .button{
+     padding: 3vw;
+ }
+.contactTable{
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+}
+
+/*
+html, body{
     margin: 0;
     text-align: center;
     background-color: rgb(37, 255, 255);
+    line-height: 2;
 }
 
-/*.montain{
-    
-}*/
+
 h1{
     
-    font-family: 'Grenze Gotisch', cursive;/*vai no google fonts, 
-    escolhe a fonte e cola o link no head do html e o outro texto no CSS*/
+    font-family: fantasy;/*vai no google fonts, 
+    escolhe a fonte e cola o link no head do html e o outro texto no CSS
+    font-size: 3rem;
 }
+h2{
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2;
+    
+}
+h3{
+    font-size: 1,5rem;
+}
+hr{
+    width: 15%;
+    border-style: dashed;
+    border-color: rgb(98, 188, 230);
+    border-width: 0.2rem;
+}
+
 .top-container{
     background-color: rgb(23, 63, 243);
     width: 100%;
-    height: auto;
+    height: 900px;
     position: relative;
     color: cornsilk;
+    margin: 0;
+    padding: 0;
 }
 .firstCloud{
-    width: 18%;
-    position: relative;
-    right: 20%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
 }
 .secondCloud{
-    width: 18%;
-    position: relative;
-    left: 25%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+    
 }
+
+
+.montain{
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+.name{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+
+}
+
 .middle-container{
     position: relative;
     width: 100%;
     height: auto;
+    
+}
+
+.profile{
+    height: 700px;
 }
 .profilePicture{
-    border-radius: 100%;
-    width: 25%;
+    
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+.contentProfile{
+    position: absolute;
+    top: 400px;
+    left: 600px;
 }
 .gif{
+    width: 500px;
     border-radius: 100%; 
 }
 .noToque:hover{
@@ -47,8 +404,41 @@ h1{
 .center {
     margin-left: auto;
     margin-right: auto;
+    
+
   }
-  .noToquePhoto:hover {
-    opacity: 0.5;
-    border: 1px solid rgb(130, 191, 241);
+  
+.footer-link{
+    color: rgb(136, 208, 230);
 }
+
+.bottom-container{
+    background-color: grey;
+}
+.frontend-picture{
+    width: 150px;
+    border-radius: 100%;
+    float: left;
+}
+.Abilities{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linux-picture{
+    border-radius: 100%;
+    width: 150px;
+    float: right;
+    
+}
+.HeightLine{
+    line-height: 2;
+}
+.English-language-picture{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+}
+
+ */
+
